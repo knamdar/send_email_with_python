@@ -13,7 +13,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 # Load data from Excel file
-df = pd.read_excel('Samle_Sheet.xlsx', header=None)
+df = pd.read_excel('Sample_Sheet.xlsx', header=None)
 
 # Set email template
 subject = 'Welcome to AI in Medicine!' #Change the subject and the message template based on your need
